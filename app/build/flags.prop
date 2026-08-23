@@ -1,0 +1,3 @@
+abiList=x86_64,arm64-v8a,armeabi-v7a,x86
+version=30.7
+versionCode=30700

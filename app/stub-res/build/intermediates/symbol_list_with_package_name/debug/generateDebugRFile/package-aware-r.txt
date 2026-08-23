@@ -1,0 +1,4 @@
+com.topjohnwu.magisk
+string dling
+string no_internet_msg
+string upgrade_msg

@@ -1,0 +1,18 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.topjohnwu.magisk" >
+4
+5    <uses-sdk
+5-->INJECTED
+6        android:minSdkVersion="23"
+6-->INJECTED
+7        android:targetSdkVersion="37" />
+7-->INJECTED
+8
+9    <application
+9-->/Users/jingkaiwong/Desktop/DW-Kitsune-Mask-master 2/DW-Kitsune-Mask/app/stub-res/src/main/AndroidManifest.xml:2:11-26
+10        android:debuggable="true"
+11        android:extractNativeLibs="false" />
+11-->INJECTED
+12
+13</manifest>

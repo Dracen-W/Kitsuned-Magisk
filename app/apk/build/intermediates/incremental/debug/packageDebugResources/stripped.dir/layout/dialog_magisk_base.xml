@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                       
+                                                   
+
+    
+
+                 
+                       
+                                                                 
+
+           
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_width="match_parent" android:tag="layout/dialog_magisk_base_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/dialog_base_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_begin="16dp" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/dialog_base_end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_end="16dp" />
+
+        <ImageView
+            android:id="@+id/dialog_base_icon"
+            style="@style/WidgetFoundation.Image.Big"
+            android:tag="binding_1"    
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/l1"
+                                      
+            app:layout_constraintBottom_toTopOf="@+id/dialog_base_title"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:src="@drawable/ic_delete_md2" />
+
+        <TextView
+            android:id="@+id/dialog_base_title"
+            android:tag="binding_2"         
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/l1"
+            android:gravity="center"
+                                        
+            android:textAppearance="@style/AppearanceFoundation.Title"
+            app:layout_constraintEnd_toEndOf="@+id/dialog_base_end"
+            app:layout_constraintStart_toStartOf="@+id/dialog_base_start"
+            app:layout_constraintTop_toBottomOf="@+id/dialog_base_icon"
+            tools:lines="1"
+            tools:text="@tools:sample/lorem/random" />
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/l_50"
+            android:overScrollMode="ifContentScrolls"
+            app:layout_constrainedHeight="true"
+            app:layout_constraintBottom_toTopOf="@+id/dialog_base_space"
+            app:layout_constraintEnd_toEndOf="@+id/dialog_base_end"
+            app:layout_constraintStart_toStartOf="@+id/dialog_base_start"
+            app:layout_constraintTop_toBottomOf="@+id/dialog_base_title">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/dialog_base_message"
+                    android:tag="binding_3"           
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                                                  
+                    android:textAppearance="@style/AppearanceFoundation.Body"
+                    tools:lines="3"
+                    tools:text="@tools:sample/lorem/random" />
+
+                <FrameLayout
+                    android:id="@+id/dialog_base_container"
+                    android:tag="binding_4"           
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </FrameLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+        <Space
+            android:id="@+id/dialog_base_space"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/l_50"
+            app:layout_constraintBottom_toTopOf="@+id/dialog_base_buttons"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <androidx.appcompat.widget.ButtonBarLayout
+            android:id="@+id/dialog_base_buttons"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="bottom|center_horizontal"
+            android:layoutDirection="locale"
+            android:orientation="horizontal"
+            android:paddingStart="12dp"
+            android:paddingTop="4dp"
+            android:paddingEnd="12dp"
+            android:paddingBottom="4dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <Button
+                android:id="@+id/dialog_base_button_2"
+                style="@style/WidgetFoundation.Button.Text"
+                android:tag="binding_5"          
+                                                           
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                                                                   
+                                                                   
+                                                                       
+                                                            
+                                                     
+                app:iconGravity="textStart"
+                tools:icon="@drawable/ic_bug_md2"
+                tools:text="Button 1" />
+
+            <Space
+                android:id="@+id/spacer"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/dialog_base_button_3"
+                style="@style/WidgetFoundation.Button.Text"
+                android:tag="binding_6"           
+                                                            
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                                                                    
+                                                                    
+                                                                        
+                                                             
+                                                      
+                tools:icon="@drawable/ic_bug_md2"
+                tools:text="Button 1" />
+
+            <Button
+                android:id="@+id/dialog_base_button_1"
+                style="@style/WidgetFoundation.Button.Text"
+                android:tag="binding_7"           
+                                                            
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                                                                    
+                                                                    
+                                                                        
+                                                             
+                                                      
+                app:iconGravity="textStart"
+                tools:icon="@drawable/ic_bug_md2"
+                tools:text="Button 1" />
+
+        </androidx.appcompat.widget.ButtonBarLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+         

@@ -1,0 +1,7 @@
+#Sun Aug 23 20:12:08 GMT+08:00 2026
+base.0=/Users/jingkaiwong/Desktop/Kitsuned magisk/app/stub-res/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
+base.1=/Users/jingkaiwong/Desktop/Kitsuned magisk/app/stub-res/build/intermediates/global_synthetics_dex/debug/generateDebugGlobalSynthetics/classes.dex
+path.0=0/classes.dex
+path.1=classes.dex
+renamed.0=classes.dex
+renamed.1=classes2.dex

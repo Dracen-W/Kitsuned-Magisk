@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <attr format="color" name="colorDisabled"/>
+    <attr format="color" name="colorDisabledVariant"/>
+    <attr format="color" name="colorOnPrimaryVariant"/>
+    <attr format="color" name="colorOnSurfaceVariant"/>
+    <attr format="color" name="colorSurfaceSurfaceVariant"/>
+    <attr format="color" name="colorSurfaceVariant"/>
+    <dimen name="internal_action_bar_size">56dp</dimen>
+    <dimen name="l1">16dp</dimen>
+    <dimen name="l2">32dp</dimen>
+    <dimen name="l3">48dp</dimen>
+    <dimen name="l_125">2dp</dimen>
+    <dimen name="l_25">4dp</dimen>
+    <dimen name="l_50">8dp</dimen>
+    <dimen name="l_75">12dp</dimen>
+    <dimen name="margin_generic">16dp</dimen>
+    <dimen name="r1">8dp</dimen>
+    <item name="recyclerScrollListener" type="id"/>
+    <style name="AppearanceFoundation.Body" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:textColor">?attr/colorOnSurface</item>
+    </style>
+    <style name="AppearanceFoundation.Caption" parent="TextAppearance.AppCompat.Caption">
+        <item name="android:textColor">?attr/colorOnSurface</item>
+    </style>
+    <style name="AppearanceFoundation.Caption.OnPrimary">
+        <item name="android:textColor">?attr/colorOnPrimary</item>
+    </style>
+    <style name="AppearanceFoundation.Caption.Primary">
+        <item name="android:textColor">?attr/colorPrimary</item>
+    </style>
+    <style name="AppearanceFoundation.Caption.Variant">
+        <item name="android:textColor">?attr/colorOnSurfaceVariant</item>
+    </style>
+    <style name="AppearanceFoundation.Large" parent="TextAppearance.AppCompat.Large">
+        <item name="android:textColor">?attr/colorOnSurface</item>
+    </style>
+    <style name="AppearanceFoundation.Large.Secondary">
+        <item name="android:textColor">?colorSecondary</item>
+    </style>
+    <style name="AppearanceFoundation.Tiny" parent="TextAppearance.AppCompat.Caption">
+        <item name="android:textColor">?attr/colorOnSurface</item>
+        <item name="android:textSize">11sp</item>
+    </style>
+    <style name="AppearanceFoundation.Tiny.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="AppearanceFoundation.Tiny.Variant">
+        <item name="android:textColor">?attr/colorOnSurfaceVariant</item>
+    </style>
+    <style name="AppearanceFoundation.Title" parent="TextAppearance.AppCompat.Title">
+        <item name="android:textColor">?attr/colorOnSurface</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="AppearanceFoundation.Title.OnPrimary">
+        <item name="android:textColor">?attr/colorOnPrimary</item>
+    </style>
+    <style name="Base.ThemeOverlay.AppCompat.ActionBar" tools:override="true">
+        <item name="android:colorControlNormal">?android:attr/textColorPrimary</item>
+        <item name="colorControlNormal">?android:attr/textColorPrimary</item>
+        <item name="searchViewStyle">@style/Widget.AppCompat.SearchView.ActionBar</item>
+    </style>
+    <style name="Base.V23.Theme.Foundation" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="android:windowBackground">?colorSurface</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="dialogTheme">@style/ThemeOverlay.Foundation.Dialog</item>
+        <item name="android:statusBarColor">#60000000</item>
+        <item name="android:navigationBarColor">#60000000</item>
+    </style>
+    <style name="Base.V23.Theme.Foundation.Light" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowBackground">?colorSurface</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="dialogTheme">@style/ThemeOverlay.Foundation.Dialog</item>
+        <item name="android:statusBarColor">#40bdbdbd</item>
+        <item name="android:navigationBarColor">#38000000</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+    <style name="Base.V23.ThemeOverlay.Foundation.Dialog" parent="ThemeOverlay.MaterialComponents.Dialog">
+        <item name="android:windowMinWidthMajor">@dimen/abc_dialog_min_width_major</item>
+        <item name="android:windowMinWidthMinor">@dimen/abc_dialog_min_width_minor</item>
+    </style>
+    <style name="Empty"/>
+    <style name="Foundation.Default">
+        <item name="android:includeFontPadding">false</item>
+        <item name="actionBarSize">@dimen/internal_action_bar_size</item>
+        <item name="popupMenuStyle">@style/Foundation.PopupMenu</item>
+    </style>
+    <style name="Foundation.Floating" parent="Empty">
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+    <style name="Foundation.PopupMenu" parent="Widget.MaterialComponents.PopupMenu">
+        <item name="android:itemTextAppearance">@style/AppearanceFoundation.Caption</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Theme.Foundation" parent="Base.V23.Theme.Foundation"/>
+    <style name="Theme.Foundation.Light" parent="Base.V23.Theme.Foundation.Light"/>
+    <style name="ThemeFoundationMD2" parent="Foundation.Default"/>
+    <style name="ThemeFoundationMD2.Amoled" parent="ThemeFoundationMD2.Piplup">
+        <item name="colorSurface">#FFF</item>
+        <item name="colorOnPrimary">#FFF</item>
+        <item name="colorOnSecondary">#FFF</item>
+        <item name="colorOnBackground">#FFF</item>
+        <item name="colorOnError">#FFF</item>
+    </style>
+    <style name="ThemeFoundationMD2.Charmeleon" parent="ThemeFoundationMD2.Piplup">
+        <item name="colorPrimary">#DB7366</item>
+        <item name="colorPrimaryVariant">#80DB7366</item>
+        <item name="colorSecondary">#B65247</item>
+        <item name="colorSecondaryVariant">#80B65247</item>
+        <item name="colorOnPrimary">#000000</item>
+        <item name="colorOnPrimaryVariant">#D9222222</item>
+    </style>
+    <style name="ThemeFoundationMD2.Fraxure" parent="ThemeFoundationMD2.Amoled">
+        <item name="colorPrimary">#009688</item>
+        <item name="colorPrimaryVariant">#8000796B</item>
+        <item name="colorSecondary">?colorError</item>
+        <item name="colorSecondaryVariant">#806D1111</item>
+    </style>
+    <style name="ThemeFoundationMD2.Mew" parent="ThemeFoundationMD2.Mew.Base">
+        <item name="colorPrimary">#B3566C</item>
+        <item name="colorPrimaryVariant">#80B3566C</item>
+        <item name="colorOnPrimary">#F9F9F9</item>
+        <item name="colorOnPrimaryVariant">#D9E6E6E6</item>
+    </style>
+    <style name="ThemeFoundationMD2.Mew.Base" parent="ThemeFoundationMD2.Piplup">
+        <item name="colorSecondary">#B5889B</item>
+        <item name="colorSecondaryVariant">#80B5889B</item>
+    </style>
+    <style name="ThemeFoundationMD2.Piplup">
+        <item name="colorPrimary">#4EAFF5</item>
+        <item name="colorPrimaryVariant">#804EAFF5</item>
+        <item name="colorSecondary">#3E78AF</item>
+        <item name="colorSecondaryVariant">#803E78AF</item>
+        <item name="colorSurface">#F9F9F9</item>
+        <item name="colorSurfaceVariant">#EEEEEE</item>
+        <item name="colorSurfaceSurfaceVariant">?colorSurface</item>
+        <item name="colorOnPrimary">#F9F9F9</item>
+        <item name="colorOnPrimaryVariant">#D9E6E6E6</item>
+        <item name="colorOnSecondary">#F9F9F9</item>
+        <item name="colorOnBackground">?colorOnSurface</item>
+        <item name="colorError">#CC0047</item>
+        <item name="colorOnError">#F9F9F9</item>
+        <item name="colorOnSurface">#444444</item>
+        <item name="colorOnSurfaceVariant">#BF444444</item>
+        <item name="colorDisabled">#808080</item>
+        <item name="colorDisabledVariant">#66808080</item>
+    </style>
+    <style name="ThemeFoundationMD2.Rayquaza" parent="ThemeFoundationMD2.Piplup">
+        <item name="colorPrimary">#68A17F</item>
+        <item name="colorPrimaryVariant">#8068A17F</item>
+        <item name="colorSecondary">#2F6D43</item>
+        <item name="colorSecondaryVariant">#802F6D43</item>
+    </style>
+    <style name="ThemeFoundationMD2.Salamence" parent="ThemeFoundationMD2.Piplup">
+        <item name="colorPrimary">#70B2C6</item>
+        <item name="colorPrimaryVariant">#8070B2C6</item>
+        <item name="colorSecondary">#C06A75</item>
+        <item name="colorSecondaryVariant">#80C06A75</item>
+        <item name="colorOnPrimary">#000000</item>
+        <item name="colorOnPrimaryVariant">#D9222222</item>
+    </style>
+    <style name="ThemeFoundationMD2.Zapdos" parent="ThemeFoundationMD2.Zapdos.Base">
+        <item name="colorPrimary">#F2B90D</item>
+        <item name="colorPrimaryVariant">#80F2B90D</item>
+    </style>
+    <style name="ThemeFoundationMD2.Zapdos.Base" parent="ThemeFoundationMD2.Piplup">
+        <item name="colorSecondary">#B29667</item>
+        <item name="colorSecondaryVariant">#80B29667</item>
+        <item name="colorOnPrimary">#000000</item>
+        <item name="colorOnPrimaryVariant">#D9222222</item>
+    </style>
+    <style name="ThemeOverlay.Button.Text.Secondary" parent="">
+        <item name="colorPrimary">?colorSecondary</item>
+    </style>
+    <style name="ThemeOverlay.Foundation.Dialog" parent="Base.V23.ThemeOverlay.Foundation.Dialog"/>
+    <style name="W" parent="android:Widget"/>
+    <style name="W.Home"/>
+    <style name="W.Home.Item">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:paddingStart">@dimen/l1</item>
+        <item name="android:paddingEnd">@dimen/l1</item>
+    </style>
+    <style name="W.Home.Item.Bottom">
+        <item name="android:paddingBottom">@dimen/l_75</item>
+    </style>
+    <style name="W.Home.Item.Top">
+        <item name="android:paddingTop">@dimen/l_75</item>
+    </style>
+    <style name="W.Home.ItemContent">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textAppearance">@style/AppearanceFoundation.Caption.Variant</item>
+    </style>
+    <style name="W.Home.ItemContent.Right">
+        <item name="android:layout_marginStart">@dimen/l_50</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAppearance">@style/AppearanceFoundation.Caption</item>
+    </style>
+    <style name="W.Theme">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/l1</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    <style name="W.Theme.Container" parent="Empty">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:baselineAligned">false</item>
+    </style>
+    <style name="W.Theme.Left">
+        <item name="android:layout_marginEnd">@dimen/l1</item>
+    </style>
+    <style name="W.Theme.Right"/>
+    <style name="WidgetFoundation" parent="android:Widget"/>
+    <style name="WidgetFoundation.Appbar" parent="Widget.MaterialComponents.AppBarLayout.Surface"/>
+    <style name="WidgetFoundation.Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:textStyle">bold</item>
+        <item name="iconGravity">textStart</item>
+        <item name="iconPadding">@dimen/l_50</item>
+    </style>
+    <style name="WidgetFoundation.Button.Outlined" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:textStyle">bold</item>
+        <item name="iconGravity">textStart</item>
+        <item name="iconPadding">@dimen/l_50</item>
+        <item name="strokeColor">?colorPrimary</item>
+        <item name="android:textColor">?colorPrimary</item>
+    </style>
+    <style name="WidgetFoundation.Button.Outlined.Error">
+        <item name="strokeColor">@color/color_error_transient</item>
+        <item name="rippleColor">@color/color_error_transient</item>
+        <item name="android:textColor">@color/color_error_transient</item>
+        <item name="iconTint">@color/color_error_transient</item>
+    </style>
+    <style name="WidgetFoundation.Button.Text" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textStyle">bold</item>
+        <item name="iconGravity">textStart</item>
+        <item name="iconPadding">@dimen/l_50</item>
+    </style>
+    <style name="WidgetFoundation.Button.Text.OnPrimary">
+        <item name="rippleColor">?colorOnPrimary</item>
+        <item name="android:textColor">?colorOnPrimary</item>
+        <item name="iconTint">?colorOnPrimary</item>
+    </style>
+    <style name="WidgetFoundation.Card" parent="Widget.MaterialComponents.CardView">
+        <item name="android:focusable">auto</item>
+        <item name="cardBackgroundColor">?colorSurfaceVariant</item>
+        <item name="cardCornerRadius">@dimen/l_50</item>
+        <item name="cardElevation">0dp</item>
+        <item name="cardPreventCornerOverlap">false</item>
+    </style>
+    <style name="WidgetFoundation.Card.Elevated">
+        <item name="cardBackgroundColor">?colorSurfaceSurfaceVariant</item>
+        <item name="cardCornerRadius">@dimen/l_50</item>
+        <item name="cardElevation">@dimen/l_125</item>
+    </style>
+    <style name="WidgetFoundation.Card.Primary">
+        <item name="cardBackgroundColor">?colorPrimary</item>
+    </style>
+    <style name="WidgetFoundation.Checkbox" parent="Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="android:paddingStart">@dimen/l1</item>
+        <item name="android:paddingEnd">@dimen/l1</item>
+    </style>
+    <style name="WidgetFoundation.Icon" parent="WidgetFoundation.Image.Big">
+        <item name="android:padding">@dimen/l_75</item>
+        <item name="android:background">?selectableItemBackgroundBorderless</item>
+        <item name="tint">@color/color_text_transient</item>
+    </style>
+    <style name="WidgetFoundation.Icon.OnPrimary">
+        <item name="tint">@color/color_on_primary_transient</item>
+    </style>
+    <style name="WidgetFoundation.Icon.Primary">
+        <item name="tint">@color/color_primary_transient</item>
+    </style>
+    <style name="WidgetFoundation.Image">
+        <item name="android:layout_width">32dp</item>
+        <item name="android:layout_height">32dp</item>
+    </style>
+    <style name="WidgetFoundation.Image.Big">
+        <item name="android:layout_width">48dp</item>
+        <item name="android:layout_height">48dp</item>
+    </style>
+    <style name="WidgetFoundation.Image.Small">
+        <item name="android:layout_width">24dp</item>
+        <item name="android:layout_height">24dp</item>
+    </style>
+    <style name="WidgetFoundation.ProgressBar" parent="Widget.AppCompat.ProgressBar.Horizontal">
+        <item name="android:indeterminate">false</item>
+        <item name="android:layout_height">4dp</item>
+    </style>
+    <style name="WidgetFoundation.ProgressBar.Indeterminate" parent="Widget.AppCompat.ProgressBar.Horizontal">
+        <item name="android:indeterminate">true</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">100dp</item>
+        <item name="android:indeterminateTint">?colorPrimary</item>
+    </style>
+    <style name="WidgetFoundation.RadioButton" parent="Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="android:paddingStart">@dimen/l1</item>
+        <item name="android:paddingEnd">@dimen/l1</item>
+    </style>
+    <style name="WidgetFoundation.Toolbar" parent="Widget.MaterialComponents.Toolbar.Surface">
+        <item name="titleTextAppearance">@style/AppearanceFoundation.Title</item>
+        <item name="titleTextColor">?colorOnSurface</item>
+        <item name="subtitleTextAppearance">@style/AppearanceFoundation.Caption</item>
+        <item name="subtitleTextColor">?colorOnSurfaceVariant</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="contentInsetStartWithNavigation">0dp</item>
+        <item name="android:layout_height">?actionBarSize</item>
+        <item name="android:theme">@style/ThemeOverlay.MaterialComponents.ActionBar</item>
+    </style>
+    <declare-styleable name="ConcealableView">
+        <attr format="boolean" name="state_hidden"/>
+    </declare-styleable>
+</resources>
