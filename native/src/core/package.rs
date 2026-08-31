@@ -455,15 +455,6 @@ impl MagiskD {
             info.stub_apk_fd = Some(fd);
         }
 
-        if let Ok(manager_apk) = find_apk_path(APP_PACKAGE_NAME)
-            && let Ok(mut fd) = manager_apk.open(OFlag::O_RDONLY | OFlag::O_CLOEXEC)
-        {
-            let cert = read_certificate(&mut fd, MAGISK_VER_CODE);
-            if !cert.is_empty() {
-                info.trusted_cert = cert;
-            }
-        }
-
         apk.remove().log_ok();
     }
 
