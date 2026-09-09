@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dling">Загрузка</string>
+    <string name="no_internet_msg">Пожалуйста, подключитесь к Интернету! Требуется обновление Magisk.</string>
+    <string name="upgrade_msg">Обновите Magisk для завершения установки. Продолжить?</string>
+</resources>

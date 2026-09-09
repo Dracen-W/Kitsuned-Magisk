@@ -1,0 +1,110 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/jingkaiwong/Desktop/Magisk-master/app/stub/src/main/AndroidManifest.xml:3:1-13:12
+INJECTED from /Users/jingkaiwong/Desktop/Magisk-master/app/stub/src/main/AndroidManifest.xml:3:1-13:12
+INJECTED from /Users/jingkaiwong/Desktop/Magisk-master/app/stub/src/main/AndroidManifest.xml:3:1-13:12
+INJECTED from /Users/jingkaiwong/Desktop/Magisk-master/app/stub/src/main/AndroidManifest.xml:3:1-13:12
+MERGED from [:shared] /Users/jingkaiwong/Desktop/Magisk-master/app/shared/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-40:12
+	package
+		INJECTED from /Users/jingkaiwong/Desktop/Magisk-master/app/stub/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/jingkaiwong/Desktop/Magisk-master/app/stub/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/jingkaiwong/Desktop/Magisk-master/app/stub/src/main/AndroidManifest.xml:4:5-51
+	android:versionCode
+		INJECTED from /Users/jingkaiwong/Desktop/Magisk-master/app/stub/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/jingkaiwong/Desktop/Magisk-master/app/stub/src/main/AndroidManifest.xml:3:11-69
+uses-permission#com.android.launcher.permission.INSTALL_SHORTCUT
+ADDED from /Users/jingkaiwong/Desktop/Magisk-master/app/stub/src/main/AndroidManifest.xml:6:5-8:38
+	android:maxSdkVersion
+		ADDED from /Users/jingkaiwong/Desktop/Magisk-master/app/stub/src/main/AndroidManifest.xml:8:9-35
+	android:name
+		ADDED from /Users/jingkaiwong/Desktop/Magisk-master/app/stub/src/main/AndroidManifest.xml:7:9-72
+application
+ADDED from /Users/jingkaiwong/Desktop/Magisk-master/app/stub/src/main/AndroidManifest.xml:10:5-11:19
+INJECTED from /Users/jingkaiwong/Desktop/Magisk-master/app/stub/src/main/AndroidManifest.xml:10:5-11:19
+MERGED from [:shared] /Users/jingkaiwong/Desktop/Magisk-master/app/shared/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:30:5-38:42
+MERGED from [:shared] /Users/jingkaiwong/Desktop/Magisk-master/app/shared/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:30:5-38:42
+	android:requestLegacyExternalStorage
+		ADDED from [:shared] /Users/jingkaiwong/Desktop/Magisk-master/app/shared/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:34:9-52
+	android:extractNativeLibs
+		INJECTED from /Users/jingkaiwong/Desktop/Magisk-master/app/stub/src/main/AndroidManifest.xml
+	android:supportsRtl
+		ADDED from [:shared] /Users/jingkaiwong/Desktop/Magisk-master/app/shared/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:35:9-35
+	android:label
+		ADDED from [:shared] /Users/jingkaiwong/Desktop/Magisk-master/app/shared/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:33:9-40
+	tools:ignore
+		ADDED from /Users/jingkaiwong/Desktop/Magisk-master/app/stub/src/main/AndroidManifest.xml:10:18-55
+	android:allowBackup
+		ADDED from [:shared] /Users/jingkaiwong/Desktop/Magisk-master/app/shared/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:31:9-36
+	android:theme
+		ADDED from [:shared] /Users/jingkaiwong/Desktop/Magisk-master/app/shared/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:36:9-68
+	android:enableOnBackInvokedCallback
+		ADDED from [:shared] /Users/jingkaiwong/Desktop/Magisk-master/app/shared/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:32:9-52
+	android:usesCleartextTraffic
+		ADDED from [:shared] /Users/jingkaiwong/Desktop/Magisk-master/app/shared/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:37:9-44
+uses-sdk
+INJECTED from /Users/jingkaiwong/Desktop/Magisk-master/app/stub/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/jingkaiwong/Desktop/Magisk-master/app/stub/src/main/AndroidManifest.xml
+INJECTED from /Users/jingkaiwong/Desktop/Magisk-master/app/stub/src/main/AndroidManifest.xml
+MERGED from [:shared] /Users/jingkaiwong/Desktop/Magisk-master/app/shared/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:7:5-44
+MERGED from [:shared] /Users/jingkaiwong/Desktop/Magisk-master/app/shared/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:7:5-44
+	android:targetSdkVersion
+		INJECTED from /Users/jingkaiwong/Desktop/Magisk-master/app/stub/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/jingkaiwong/Desktop/Magisk-master/app/stub/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from [:shared] /Users/jingkaiwong/Desktop/Magisk-master/app/shared/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:9:5-67
+	android:name
+		ADDED from [:shared] /Users/jingkaiwong/Desktop/Magisk-master/app/shared/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:9:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:shared] /Users/jingkaiwong/Desktop/Magisk-master/app/shared/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from [:shared] /Users/jingkaiwong/Desktop/Magisk-master/app/shared/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:10:22-76
+uses-permission#android.permission.REQUEST_INSTALL_PACKAGES
+ADDED from [:shared] /Users/jingkaiwong/Desktop/Magisk-master/app/shared/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:11:5-83
+	android:name
+		ADDED from [:shared] /Users/jingkaiwong/Desktop/Magisk-master/app/shared/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:11:22-80
+uses-permission#android.permission.HIDE_OVERLAY_WINDOWS
+ADDED from [:shared] /Users/jingkaiwong/Desktop/Magisk-master/app/shared/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from [:shared] /Users/jingkaiwong/Desktop/Magisk-master/app/shared/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:12:22-76
+uses-permission#android.permission.UPDATE_PACKAGES_WITHOUT_USER_ACTION
+ADDED from [:shared] /Users/jingkaiwong/Desktop/Magisk-master/app/shared/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:13:5-94
+	android:name
+		ADDED from [:shared] /Users/jingkaiwong/Desktop/Magisk-master/app/shared/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:13:22-91
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from [:shared] /Users/jingkaiwong/Desktop/Magisk-master/app/shared/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:14:5-77
+	android:name
+		ADDED from [:shared] /Users/jingkaiwong/Desktop/Magisk-master/app/shared/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:14:22-74
+uses-permission#android.permission.RUN_USER_INITIATED_JOBS
+ADDED from [:shared] /Users/jingkaiwong/Desktop/Magisk-master/app/shared/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:15:5-82
+	android:name
+		ADDED from [:shared] /Users/jingkaiwong/Desktop/Magisk-master/app/shared/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:15:22-79
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [:shared] /Users/jingkaiwong/Desktop/Magisk-master/app/shared/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:16:5-18:38
+	android:maxSdkVersion
+		ADDED from [:shared] /Users/jingkaiwong/Desktop/Magisk-master/app/shared/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:18:9-35
+	android:name
+		ADDED from [:shared] /Users/jingkaiwong/Desktop/Magisk-master/app/shared/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:17:9-61
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [:shared] /Users/jingkaiwong/Desktop/Magisk-master/app/shared/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:19:5-21:38
+	android:maxSdkVersion
+		ADDED from [:shared] /Users/jingkaiwong/Desktop/Magisk-master/app/shared/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:21:9-35
+	android:name
+		ADDED from [:shared] /Users/jingkaiwong/Desktop/Magisk-master/app/shared/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:20:9-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [:shared] /Users/jingkaiwong/Desktop/Magisk-master/app/shared/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:22:5-25:40
+	android:maxSdkVersion
+		ADDED from [:shared] /Users/jingkaiwong/Desktop/Magisk-master/app/shared/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:24:9-35
+	tools:ignore
+		ADDED from [:shared] /Users/jingkaiwong/Desktop/Magisk-master/app/shared/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:25:9-37
+	android:name
+		ADDED from [:shared] /Users/jingkaiwong/Desktop/Magisk-master/app/shared/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:23:9-65
+uses-permission#android.permission.QUERY_ALL_PACKAGES
+ADDED from [:shared] /Users/jingkaiwong/Desktop/Magisk-master/app/shared/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:26:5-28:53
+	tools:ignore
+		ADDED from [:shared] /Users/jingkaiwong/Desktop/Magisk-master/app/shared/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:28:9-50
+	android:name
+		ADDED from [:shared] /Users/jingkaiwong/Desktop/Magisk-master/app/shared/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:27:9-61

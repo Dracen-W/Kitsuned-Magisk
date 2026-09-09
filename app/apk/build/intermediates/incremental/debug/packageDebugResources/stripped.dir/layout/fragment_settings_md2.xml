@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                       
+                                                   
+
+    
+
+                 
+                            
+                                                                        
+
+           
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" android:tag="layout/fragment_settings_md2_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:tag="binding_1"       
+                                                          
+            android:id="@+id/settings_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusableInTouchMode="false"
+            android:clipToPadding="false"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/internal_action_bar_size"
+            app:fitsSystemWindowsInsets="top|bottom"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            tools:layout_marginTop="24dp"
+            tools:listitem="@layout/item_settings"
+            tools:paddingTop="@dimen/l1" />
+
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/snackbar_container"
+            app:fitsSystemWindowsInsets="top|bottom"/>
+    </FrameLayout>
+
+         

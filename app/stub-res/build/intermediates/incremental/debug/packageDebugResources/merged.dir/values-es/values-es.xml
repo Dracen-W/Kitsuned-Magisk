@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dling">Descargando...</string>
+    <string name="no_internet_msg">Sin conexión disponible</string>
+    <string name="upgrade_msg">Actualiza a la versión completa de Magisk para finalizar la instalación. ¿Descargar e instalar?</string>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                        
+
+    
+
+                 
+                       
+                                                                  
+
+                 
+                            
+                                                                    
+
+           
+
+    <Button
+        style="@style/WidgetFoundation.Button.Outlined"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/l_50"
+        android:tag="layout/item_module_download_0"          
+        android:text="@string/module_action_install_external"
+        android:textAllCaps="false"
+        android:textSize="12sp"
+        app:cornerRadius="@dimen/r1"
+        app:icon="@drawable/ic_module_storage_md2"   xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"/>
+
+         

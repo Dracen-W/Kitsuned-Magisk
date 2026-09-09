@@ -1,0 +1,3 @@
+int string dling 0x7f010000
+int string no_internet_msg 0x7f010001
+int string upgrade_msg 0x7f010002

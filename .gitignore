@@ -1,0 +1,17 @@
+out
+*.zip
+*.jks
+*.apk
+*.log
+*.DS_Store
+/config.prop
+/notes.md
+
+# Built binaries
+native/out
+
+# Android Studio
+*.iml
+.idea
+.cursor
+ramdisk.img

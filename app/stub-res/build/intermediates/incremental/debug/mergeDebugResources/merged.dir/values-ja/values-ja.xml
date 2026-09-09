@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dling">ダウンロード中</string>
+    <string name="no_internet_msg">インターネットに接続してください！フルバージョンの Magisk Manager が必要です。</string>
+    <string name="upgrade_msg">Magisk Manager のフルバージョンにアップグレードしてセットアップを完了します。ダウンロードしてインストールしますか？</string>
+</resources>

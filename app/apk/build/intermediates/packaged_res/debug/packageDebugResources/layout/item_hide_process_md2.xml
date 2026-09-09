@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                       
+                                                   
+
+    
+
+                 
+                       
+                                                                
+
+                 
+                            
+                                                                    
+
+           
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+                                                   android:tag="layout/item_hide_process_md2_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/l1"
+            android:layout_marginTop="@dimen/l_75"
+            android:layout_marginEnd="@dimen/l1"
+            android:layout_marginBottom="@dimen/l_75"
+            android:singleLine="true"
+            android:ellipsize="middle"
+            android:tag="binding_1"           
+            android:textAppearance="@style/AppearanceFoundation.Caption.Variant"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/hide_process_checkbox"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="com.topjohnwu.magisk" />
+
+        <com.google.android.material.switchmaterial.SwitchMaterial
+            android:id="@+id/hide_process_checkbox"
+            android:tag="binding_2"           
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/l_50"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+         

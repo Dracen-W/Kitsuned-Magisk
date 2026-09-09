@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3" xmlns:tools="http://schemas.android.com/tools"><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~:!&lt;dir>navigation"><source path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res"><file name="fragment_enter" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/anim/fragment_enter.xml" qualifiers="" type="anim"/><file name="fragment_enter_pop" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/anim/fragment_enter_pop.xml" qualifiers="" type="anim"/><file name="fragment_exit" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/anim/fragment_exit.xml" qualifiers="" type="anim"/><file name="fragment_exit_pop" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/anim/fragment_exit_pop.xml" qualifiers="" type="anim"/><file path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/values-v27/themes.xml" qualifiers="v27"><style name="Base.V27.Theme.Foundation.Light" parent="Base.V23.Theme.Foundation.Light">
+        <item name="android:navigationBarColor">#e0fafafa</item>
+        <item name="android:navigationBarDividerColor">#1f000000</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style><style name="Base.V27.Theme.Foundation" parent="Base.V23.Theme.Foundation">
+        <item name="android:navigationBarDividerColor">@android:color/transparent</item>
+    </style><style name="Theme.Foundation.Light" parent="Base.V27.Theme.Foundation.Light"/><style name="Theme.Foundation" parent="Base.V27.Theme.Foundation"/></file><file name="ic_folder_list" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/drawable/ic_folder_list.xml" qualifiers="" type="drawable"/><file name="ic_settings_md2" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/drawable/ic_settings_md2.xml" qualifiers="" type="drawable"/><file name="ic_update_md2" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/drawable/ic_update_md2.xml" qualifiers="" type="drawable"/><file name="ic_check_md2" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/drawable/ic_check_md2.xml" qualifiers="" type="drawable"/><file name="ic_forth_md2" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/drawable/ic_forth_md2.xml" qualifiers="" type="drawable"/><file name="ic_module_filled_md2" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/drawable/ic_module_filled_md2.xml" qualifiers="" type="drawable"/><file name="ic_module_md2" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/drawable/ic_module_md2.xml" qualifiers="" type="drawable"/><file name="avd_bug_from_filled" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/drawable/avd_bug_from_filled.xml" qualifiers="" type="drawable"/><file name="ic_search_md2" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/drawable/ic_search_md2.xml" qualifiers="" type="drawable"/><file name="ic_bug_md2" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/drawable/ic_bug_md2.xml" qualifiers="" type="drawable"/><file name="ic_night" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/drawable/ic_night.xml" qualifiers="" type="drawable"/><file name="ic_notifications_md2" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/drawable/ic_notifications_md2.xml" qualifiers="" type="drawable"/><file name="avd_settings_to_filled" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/drawable/avd_settings_to_filled.xml" qualifiers="" type="drawable"/><file name="ic_check_circle_checked_md2" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/drawable/ic_check_circle_checked_md2.xml" qualifiers="" type="drawable"/><file name="ic_check_circle_unchecked_md2" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/drawable/ic_check_circle_unchecked_md2.xml" qualifiers="" type="drawable"/><file name="ic_download_md2" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/drawable/ic_download_md2.xml" qualifiers="" type="drawable"/><file name="ic_delete_md2" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/drawable/ic_delete_md2.xml" qualifiers="" type="drawable"/><file name="avd_circle_check_to_filled" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/drawable/avd_circle_check_to_filled.xml" qualifiers="" type="drawable"/><file name="avd_circle_check_from_filled" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/drawable/avd_circle_check_from_filled.xml" qualifiers="" type="drawable"/><file name="bg_selection_circle_green" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/drawable/bg_selection_circle_green.xml" qualifiers="" type="drawable"/><file name="ic_day" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/drawable/ic_day.xml" qualifiers="" type="drawable"/><file name="ic_day_night" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/drawable/ic_day_night.xml" qualifiers="" type="drawable"/><file name="avd_superuser_from_filled" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/drawable/avd_superuser_from_filled.xml" qualifiers="" type="drawable"/><file name="ic_bug_outlined_md2" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/drawable/ic_bug_outlined_md2.xml" qualifiers="" type="drawable"/><file name="ic_superuser_filled_md2" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/drawable/ic_superuser_filled_md2.xml" qualifiers="" type="drawable"/><file name="ic_back_md2" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/drawable/ic_back_md2.xml" qualifiers="" type="drawable"/><file name="avd_module_to_filled" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/drawable/avd_module_to_filled.xml" qualifiers="" type="drawable"/><file name="ic_manager" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/drawable/ic_manager.xml" qualifiers="" type="drawable"/><file name="ic_save_md2" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/drawable/ic_save_md2.xml" qualifiers="" type="drawable"/><file name="ic_paint" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/drawable/ic_paint.xml" qualifiers="" type="drawable"/><file name="ic_bug_filled_md2" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/drawable/ic_bug_filled_md2.xml" qualifiers="" type="drawable"/><file name="ic_home_md2" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/drawable/ic_home_md2.xml" qualifiers="" type="drawable"/><file name="ic_module_storage_md2" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/drawable/ic_module_storage_md2.xml" qualifiers="" type="drawable"/><file name="ic_close_md2" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/drawable/ic_close_md2.xml" qualifiers="" type="drawable"/><file name="ic_module_outlined_md2" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/drawable/ic_module_outlined_md2.xml" qualifiers="" type="drawable"/><file name="ic_settings_filled_md2" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/drawable/ic_settings_filled_md2.xml" qualifiers="" type="drawable"/><file name="ic_restart" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/drawable/ic_restart.xml" qualifiers="" type="drawable"/><file name="ic_check_circle_md2" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/drawable/ic_check_circle_md2.xml" qualifiers="" type="drawable"/><file name="ic_superuser_md2" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/drawable/ic_superuser_md2.xml" qualifiers="" type="drawable"/><file name="bg_line_top_rounded" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/drawable/bg_line_top_rounded.xml" qualifiers="" type="drawable"/><file name="ic_home_filled_md2" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/drawable/ic_home_filled_md2.xml" qualifiers="" type="drawable"/><file name="bg_line_bottom_rounded" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/drawable/bg_line_bottom_rounded.xml" qualifiers="" type="drawable"/><file name="avd_settings_from_filled" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/drawable/avd_settings_from_filled.xml" qualifiers="" type="drawable"/><file name="avd_home_from_filled" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/drawable/avd_home_from_filled.xml" qualifiers="" type="drawable"/><file name="ic_superuser_outlined_md2" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/drawable/ic_superuser_outlined_md2.xml" qualifiers="" type="drawable"/><file name="ic_home_outlined_md2" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/drawable/ic_home_outlined_md2.xml" qualifiers="" type="drawable"/><file name="avd_superuser_to_filled" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/drawable/avd_superuser_to_filled.xml" qualifiers="" type="drawable"/><file name="avd_home_to_filled" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/drawable/avd_home_to_filled.xml" qualifiers="" type="drawable"/><file name="ic_action_md2" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/drawable/ic_action_md2.xml" qualifiers="" type="drawable"/><file name="avd_bug_to_filled" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/drawable/avd_bug_to_filled.xml" qualifiers="" type="drawable"/><file name="avd_module_from_filled" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/drawable/avd_module_from_filled.xml" qualifiers="" type="drawable"/><file name="ic_settings_outlined_md2" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/drawable/ic_settings_outlined_md2.xml" qualifiers="" type="drawable"/><file name="ic_install" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/drawable/ic_install.xml" qualifiers="" type="drawable"/><file name="item_icon_link" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/layout/item_icon_link.xml" qualifiers="" type="layout"/><file name="fragment_superuser_md2" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/layout/fragment_superuser_md2.xml" qualifiers="" type="layout"/><file name="include_log_magisk" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/layout/include_log_magisk.xml" qualifiers="" type="layout"/><file name="item_list_single_line" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/layout/item_list_single_line.xml" qualifiers="" type="layout"/><file name="markdown_window_md2" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/layout/markdown_window_md2.xml" qualifiers="" type="layout"/><file name="item_settings" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/layout/item_settings.xml" qualifiers="" type="layout"/><file name="fragment_flash_md2" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/layout/fragment_flash_md2.xml" qualifiers="" type="layout"/><file name="item_console_md2" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/layout/item_console_md2.xml" qualifiers="" type="layout"/><file name="fragment_deny_md2" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/layout/fragment_deny_md2.xml" qualifiers="" type="layout"/><file name="include_log_superuser" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/layout/include_log_superuser.xml" qualifiers="" type="layout"/><file name="item_module_md2" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/layout/item_module_md2.xml" qualifiers="" type="layout"/><file name="dialog_magisk_base" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/layout/dialog_magisk_base.xml" qualifiers="" type="layout"/><file name="fragment_home_md2" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/layout/fragment_home_md2.xml" qualifiers="" type="layout"/><file name="item_module_download" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/layout/item_module_download.xml" qualifiers="" type="layout"/><file name="item_theme_container" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/layout/item_theme_container.xml" qualifiers="" type="layout"/><file name="item_log_access_md2" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/layout/item_log_access_md2.xml" qualifiers="" type="layout"/><file name="activity_main_md2" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/layout/activity_main_md2.xml" qualifiers="" type="layout"/><file name="fragment_module_md2" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/layout/fragment_module_md2.xml" qualifiers="" type="layout"/><file name="fragment_install_md2" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/layout/fragment_install_md2.xml" qualifiers="" type="layout"/><file name="fragment_theme_md2" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/layout/fragment_theme_md2.xml" qualifiers="" type="layout"/><file name="include_home_magisk" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/layout/include_home_magisk.xml" qualifiers="" type="layout"/><file name="item_text" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/layout/item_text.xml" qualifiers="" type="layout"/><file name="item_developer" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/layout/item_developer.xml" qualifiers="" type="layout"/><file name="activity_request" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/layout/activity_request.xml" qualifiers="" type="layout"/><file name="fragment_action_md2" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/layout/fragment_action_md2.xml" qualifiers="" type="layout"/><file name="item_hide_md2" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/layout/item_hide_md2.xml" qualifiers="" type="layout"/><file name="item_log_textview" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/layout/item_log_textview.xml" qualifiers="" type="layout"/><file name="item_spinner" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/layout/item_spinner.xml" qualifiers="" type="layout"/><file name="item_theme" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/layout/item_theme.xml" qualifiers="" type="layout"/><file name="fragment_settings_md2" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/layout/fragment_settings_md2.xml" qualifiers="" type="layout"/><file name="item_settings_section" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/layout/item_settings_section.xml" qualifiers="" type="layout"/><file name="dialog_settings_app_name" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/layout/dialog_settings_app_name.xml" qualifiers="" type="layout"/><file name="dialog_settings_update_channel" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/layout/dialog_settings_update_channel.xml" qualifiers="" type="layout"/><file name="item_log_track_md2" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/layout/item_log_track_md2.xml" qualifiers="" type="layout"/><file name="include_home_manager" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/layout/include_home_manager.xml" qualifiers="" type="layout"/><file name="item_hide_process_md2" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/layout/item_hide_process_md2.xml" qualifiers="" type="layout"/><file name="dialog_settings_download_path" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/layout/dialog_settings_download_path.xml" qualifiers="" type="layout"/><file name="item_tappable_headline" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/layout/item_tappable_headline.xml" qualifiers="" type="layout"/><file name="item_policy_md2" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/layout/item_policy_md2.xml" qualifiers="" type="layout"/><file name="fragment_log_md2" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/layout/fragment_log_md2.xml" qualifiers="" type="layout"/><file name="color_on_primary_transient" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/color/color_on_primary_transient.xml" qualifiers="" type="color"/><file name="color_primary_error_transient" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/color/color_primary_error_transient.xml" qualifiers="" type="color"/><file name="color_text_transient" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/color/color_text_transient.xml" qualifiers="" type="color"/><file name="color_card_background_color_selector" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/color/color_card_background_color_selector.xml" qualifiers="" type="color"/><file name="color_error_transient" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/color/color_error_transient.xml" qualifiers="" type="color"/><file name="color_state_primary_transient" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/color/color_state_primary_transient.xml" qualifiers="" type="color"/><file name="color_primary_transient" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/color/color_primary_transient.xml" qualifiers="" type="color"/><file name="color_menu_tint" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/color/color_menu_tint.xml" qualifiers="" type="color"/><file path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/values-night/themes_md2.xml" qualifiers="night-v8"><style name="ThemeFoundationMD2.Piplup">
+        <item name="colorPrimary">#4EAFF5</item>
+        <item name="colorPrimaryVariant">#804EAFF5</item>
+        <item name="colorSecondary">#3E78AF</item>
+        <item name="colorSecondaryVariant">#803E78AF</item>
+        <item name="colorSurface">#0D0D0D</item>
+        <item name="colorSurfaceVariant">#171717</item>
+        <item name="colorSurfaceSurfaceVariant">#292929</item>
+        <item name="colorOnPrimary">#F9F9F9</item>
+        <item name="colorOnPrimaryVariant">#D9E6E6E6</item>
+        <item name="colorOnSecondary">#F9F9F9</item>
+        <item name="colorOnBackground">?colorOnSurface</item>
+        <item name="colorError">#EF8282</item>
+        <item name="colorOnError">#0D0D0D</item>
+        <item name="colorOnSurface">#D8D8D8</item>
+        <item name="colorOnSurfaceVariant">#CCBABABA</item>
+        <item name="colorDisabled">#808080</item>
+        <item name="colorDisabledVariant">#66808080</item>
+    </style><style name="ThemeFoundationMD2.Amoled" parent="ThemeFoundationMD2.Piplup">
+        <item name="colorSurface">#000</item>
+        <item name="colorOnPrimary">#FFF</item>
+        <item name="colorOnSecondary">#FFF</item>
+        <item name="colorOnBackground">#000</item>
+        <item name="colorOnError">#FFF</item>
+    </style><style name="ThemeFoundationMD2.Zapdos" parent="ThemeFoundationMD2.Zapdos.Base">
+        <item name="colorPrimary">#FBD179</item>
+        <item name="colorPrimaryVariant">#80FBD179</item>
+    </style><style name="ThemeFoundationMD2.Mew" parent="ThemeFoundationMD2.Mew.Base">
+        <item name="colorPrimary">#D9ADB7</item>
+        <item name="colorPrimaryVariant">#80E9BBC5</item>
+        <item name="colorOnPrimary">#000000</item>
+        <item name="colorOnPrimaryVariant">#D9222222</item>
+    </style></file><file path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/values-night/styles_md2.xml" qualifiers="night-v8"><style name="Foundation" parent="Theme.Foundation"/></file><file path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/values/dimens.xml" qualifiers=""><dimen name="margin_generic">16dp</dimen><dimen name="l_125">2dp</dimen><dimen name="l_25">4dp</dimen><dimen name="l_50">8dp</dimen><dimen name="l_75">12dp</dimen><dimen name="l1">16dp</dimen><dimen name="l2">32dp</dimen><dimen name="l3">48dp</dimen><dimen name="r1">8dp</dimen><dimen name="internal_action_bar_size">56dp</dimen></file><file path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/values/themes.xml" qualifiers=""><style name="Base.V23.Theme.Foundation.Light" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowBackground">?colorSurface</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="dialogTheme">@style/ThemeOverlay.Foundation.Dialog</item>
+        <item name="android:statusBarColor">#40bdbdbd</item>
+        <item name="android:navigationBarColor">#38000000</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style><style name="Base.V23.Theme.Foundation" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="android:windowBackground">?colorSurface</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="dialogTheme">@style/ThemeOverlay.Foundation.Dialog</item>
+        <item name="android:statusBarColor">#60000000</item>
+        <item name="android:navigationBarColor">#60000000</item>
+    </style><style name="Theme.Foundation.Light" parent="Base.V23.Theme.Foundation.Light"/><style name="Theme.Foundation" parent="Base.V23.Theme.Foundation"/><style name="Base.V23.ThemeOverlay.Foundation.Dialog" parent="ThemeOverlay.MaterialComponents.Dialog">
+        <item name="android:windowMinWidthMajor">@dimen/abc_dialog_min_width_major</item>
+        <item name="android:windowMinWidthMinor">@dimen/abc_dialog_min_width_minor</item>
+    </style><style name="ThemeOverlay.Foundation.Dialog" parent="Base.V23.ThemeOverlay.Foundation.Dialog"/></file><file path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/values/themes_override.xml" qualifiers=""><style name="Base.ThemeOverlay.AppCompat.ActionBar" tools:override="true">
+        <item name="android:colorControlNormal">?android:attr/textColorPrimary</item>
+        <item name="colorControlNormal">?android:attr/textColorPrimary</item>
+        <item name="searchViewStyle">@style/Widget.AppCompat.SearchView.ActionBar</item>
+    </style></file><file path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/values/styles_md2_impl.xml" qualifiers=""><style name="WidgetFoundation.Appbar" parent="Widget.MaterialComponents.AppBarLayout.Surface"/><style name="WidgetFoundation.Toolbar" parent="Widget.MaterialComponents.Toolbar.Surface">
+        <item name="titleTextAppearance">@style/AppearanceFoundation.Title</item>
+        <item name="titleTextColor">?colorOnSurface</item>
+        <item name="subtitleTextAppearance">@style/AppearanceFoundation.Caption</item>
+        <item name="subtitleTextColor">?colorOnSurfaceVariant</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="contentInsetStartWithNavigation">0dp</item>
+        <item name="android:layout_height">?actionBarSize</item>
+        <item name="android:theme">@style/ThemeOverlay.MaterialComponents.ActionBar</item>
+    </style><style name="WidgetFoundation.Card" parent="Widget.MaterialComponents.CardView">
+        <item name="android:focusable">auto</item>
+        <item name="cardBackgroundColor">?colorSurfaceVariant</item>
+        <item name="cardCornerRadius">@dimen/l_50</item>
+        <item name="cardElevation">0dp</item>
+        <item name="cardPreventCornerOverlap">false</item>
+    </style><style name="WidgetFoundation.Card.Primary">
+        <item name="cardBackgroundColor">?colorPrimary</item>
+    </style><style name="WidgetFoundation.Card.Elevated">
+        <item name="cardBackgroundColor">?colorSurfaceSurfaceVariant</item>
+        <item name="cardCornerRadius">@dimen/l_50</item>
+        <item name="cardElevation">@dimen/l_125</item>
+    </style><style name="WidgetFoundation.Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:textStyle">bold</item>
+        <item name="iconGravity">textStart</item>
+        <item name="iconPadding">@dimen/l_50</item>
+    </style><style name="WidgetFoundation.Button.Outlined" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:textStyle">bold</item>
+        <item name="iconGravity">textStart</item>
+        <item name="iconPadding">@dimen/l_50</item>
+        <item name="strokeColor">?colorPrimary</item>
+        <item name="android:textColor">?colorPrimary</item>
+    </style><style name="WidgetFoundation.Button.Outlined.Error">
+        <item name="strokeColor">@color/color_error_transient</item>
+        <item name="rippleColor">@color/color_error_transient</item>
+        <item name="android:textColor">@color/color_error_transient</item>
+        <item name="iconTint">@color/color_error_transient</item>
+    </style><style name="WidgetFoundation.Button.Text" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textStyle">bold</item>
+        <item name="iconGravity">textStart</item>
+        <item name="iconPadding">@dimen/l_50</item>
+    </style><style name="WidgetFoundation.Button.Text.OnPrimary">
+        <item name="rippleColor">?colorOnPrimary</item>
+        <item name="android:textColor">?colorOnPrimary</item>
+        <item name="iconTint">?colorOnPrimary</item>
+    </style><style name="WidgetFoundation.Image">
+        <item name="android:layout_width">32dp</item>
+        <item name="android:layout_height">32dp</item>
+    </style><style name="WidgetFoundation.Image.Big">
+        <item name="android:layout_width">48dp</item>
+        <item name="android:layout_height">48dp</item>
+    </style><style name="WidgetFoundation.Image.Small">
+        <item name="android:layout_width">24dp</item>
+        <item name="android:layout_height">24dp</item>
+    </style><style name="WidgetFoundation.Icon" parent="WidgetFoundation.Image.Big">
+        <item name="android:padding">@dimen/l_75</item>
+        <item name="android:background">?selectableItemBackgroundBorderless</item>
+        <item name="tint">@color/color_text_transient</item>
+    </style><style name="WidgetFoundation.Icon.Primary">
+        <item name="tint">@color/color_primary_transient</item>
+    </style><style name="WidgetFoundation.Icon.OnPrimary">
+        <item name="tint">@color/color_on_primary_transient</item>
+    </style><style name="WidgetFoundation.Checkbox" parent="Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="android:paddingStart">@dimen/l1</item>
+        <item name="android:paddingEnd">@dimen/l1</item>
+    </style><style name="WidgetFoundation.RadioButton" parent="Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="android:paddingStart">@dimen/l1</item>
+        <item name="android:paddingEnd">@dimen/l1</item>
+    </style><style name="WidgetFoundation.ProgressBar" parent="Widget.AppCompat.ProgressBar.Horizontal">
+        <item name="android:indeterminate">false</item>
+        <item name="android:layout_height">4dp</item>
+    </style><style name="WidgetFoundation.ProgressBar.Indeterminate" parent="Widget.AppCompat.ProgressBar.Horizontal">
+        <item name="android:indeterminate">true</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">100dp</item>
+        <item name="android:indeterminateTint">?colorPrimary</item>
+    </style></file><file path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/values/styles_view_md2.xml" qualifiers=""><style name="W" parent="android:Widget"/><style name="W.Home"/><style name="W.Home.Item">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:paddingStart">@dimen/l1</item>
+        <item name="android:paddingEnd">@dimen/l1</item>
+    </style><style name="W.Home.Item.Top">
+        <item name="android:paddingTop">@dimen/l_75</item>
+    </style><style name="W.Home.Item.Bottom">
+        <item name="android:paddingBottom">@dimen/l_75</item>
+    </style><style name="W.Home.ItemContent">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textAppearance">@style/AppearanceFoundation.Caption.Variant</item>
+    </style><style name="W.Home.ItemContent.Right">
+        <item name="android:layout_marginStart">@dimen/l_50</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAppearance">@style/AppearanceFoundation.Caption</item>
+    </style><style name="W.Theme">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/l1</item>
+        <item name="android:layout_weight">1</item>
+    </style><style name="W.Theme.Left">
+        <item name="android:layout_marginEnd">@dimen/l1</item>
+    </style><style name="W.Theme.Right"/><style name="W.Theme.Container" parent="Empty">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:baselineAligned">false</item>
+    </style></file><file path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/values/attrs.xml" qualifiers=""><attr format="color" name="colorDisabled"/><attr format="color" name="colorDisabledVariant"/><attr format="color" name="colorSurfaceVariant"/><attr format="color" name="colorOnPrimaryVariant"/><attr format="color" name="colorOnSurfaceVariant"/><attr format="color" name="colorSurfaceSurfaceVariant"/><declare-styleable name="ConcealableView">
+        <attr format="boolean" name="state_hidden"/>
+    </declare-styleable></file><file path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/values/theme_overlay.xml" qualifiers=""><style name="ThemeOverlay.Button.Text.Secondary" parent="">
+        <item name="colorPrimary">?colorSecondary</item>
+    </style></file><file path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/values/themes_md2.xml" qualifiers=""><style name="ThemeFoundationMD2" parent="Foundation.Default"/><style name="ThemeFoundationMD2.Piplup">
+        <item name="colorPrimary">#4EAFF5</item>
+        <item name="colorPrimaryVariant">#804EAFF5</item>
+        <item name="colorSecondary">#3E78AF</item>
+        <item name="colorSecondaryVariant">#803E78AF</item>
+        <item name="colorSurface">#F9F9F9</item>
+        <item name="colorSurfaceVariant">#EEEEEE</item>
+        <item name="colorSurfaceSurfaceVariant">?colorSurface</item>
+        <item name="colorOnPrimary">#F9F9F9</item>
+        <item name="colorOnPrimaryVariant">#D9E6E6E6</item>
+        <item name="colorOnSecondary">#F9F9F9</item>
+        <item name="colorOnBackground">?colorOnSurface</item>
+        <item name="colorError">#CC0047</item>
+        <item name="colorOnError">#F9F9F9</item>
+        <item name="colorOnSurface">#444444</item>
+        <item name="colorOnSurfaceVariant">#BF444444</item>
+        <item name="colorDisabled">#808080</item>
+        <item name="colorDisabledVariant">#66808080</item>
+    </style><style name="ThemeFoundationMD2.Amoled" parent="ThemeFoundationMD2.Piplup">
+        <item name="colorSurface">#FFF</item>
+        <item name="colorOnPrimary">#FFF</item>
+        <item name="colorOnSecondary">#FFF</item>
+        <item name="colorOnBackground">#FFF</item>
+        <item name="colorOnError">#FFF</item>
+    </style><style name="ThemeFoundationMD2.Rayquaza" parent="ThemeFoundationMD2.Piplup">
+        <item name="colorPrimary">#68A17F</item>
+        <item name="colorPrimaryVariant">#8068A17F</item>
+        <item name="colorSecondary">#2F6D43</item>
+        <item name="colorSecondaryVariant">#802F6D43</item>
+    </style><style name="ThemeFoundationMD2.Zapdos.Base" parent="ThemeFoundationMD2.Piplup">
+        <item name="colorSecondary">#B29667</item>
+        <item name="colorSecondaryVariant">#80B29667</item>
+        <item name="colorOnPrimary">#000000</item>
+        <item name="colorOnPrimaryVariant">#D9222222</item>
+    </style><style name="ThemeFoundationMD2.Zapdos" parent="ThemeFoundationMD2.Zapdos.Base">
+        <item name="colorPrimary">#F2B90D</item>
+        <item name="colorPrimaryVariant">#80F2B90D</item>
+    </style><style name="ThemeFoundationMD2.Charmeleon" parent="ThemeFoundationMD2.Piplup">
+        <item name="colorPrimary">#DB7366</item>
+        <item name="colorPrimaryVariant">#80DB7366</item>
+        <item name="colorSecondary">#B65247</item>
+        <item name="colorSecondaryVariant">#80B65247</item>
+        <item name="colorOnPrimary">#000000</item>
+        <item name="colorOnPrimaryVariant">#D9222222</item>
+    </style><style name="ThemeFoundationMD2.Mew.Base" parent="ThemeFoundationMD2.Piplup">
+        <item name="colorSecondary">#B5889B</item>
+        <item name="colorSecondaryVariant">#80B5889B</item>
+    </style><style name="ThemeFoundationMD2.Mew" parent="ThemeFoundationMD2.Mew.Base">
+        <item name="colorPrimary">#B3566C</item>
+        <item name="colorPrimaryVariant">#80B3566C</item>
+        <item name="colorOnPrimary">#F9F9F9</item>
+        <item name="colorOnPrimaryVariant">#D9E6E6E6</item>
+    </style><style name="ThemeFoundationMD2.Salamence" parent="ThemeFoundationMD2.Piplup">
+        <item name="colorPrimary">#70B2C6</item>
+        <item name="colorPrimaryVariant">#8070B2C6</item>
+        <item name="colorSecondary">#C06A75</item>
+        <item name="colorSecondaryVariant">#80C06A75</item>
+        <item name="colorOnPrimary">#000000</item>
+        <item name="colorOnPrimaryVariant">#D9222222</item>
+    </style><style name="ThemeFoundationMD2.Fraxure" parent="ThemeFoundationMD2.Amoled">
+        <item name="colorPrimary">#009688</item>
+        <item name="colorPrimaryVariant">#8000796B</item>
+        <item name="colorSecondary">?colorError</item>
+        <item name="colorSecondaryVariant">#806D1111</item>
+    </style></file><file path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/values/ids.xml" qualifiers=""><item name="recyclerScrollListener" type="id"/></file><file path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/values/styles_md2_appearance.xml" qualifiers=""><style name="AppearanceFoundation.Large" parent="TextAppearance.AppCompat.Large">
+        <item name="android:textColor">?attr/colorOnSurface</item>
+    </style><style name="AppearanceFoundation.Large.Secondary">
+        <item name="android:textColor">?colorSecondary</item>
+    </style><style name="AppearanceFoundation.Title" parent="TextAppearance.AppCompat.Title">
+        <item name="android:textColor">?attr/colorOnSurface</item>
+        <item name="android:textStyle">bold</item>
+    </style><style name="AppearanceFoundation.Title.OnPrimary">
+        <item name="android:textColor">?attr/colorOnPrimary</item>
+    </style><style name="AppearanceFoundation.Body" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:textColor">?attr/colorOnSurface</item>
+    </style><style name="AppearanceFoundation.Caption" parent="TextAppearance.AppCompat.Caption">
+        <item name="android:textColor">?attr/colorOnSurface</item>
+    </style><style name="AppearanceFoundation.Caption.Variant">
+        <item name="android:textColor">?attr/colorOnSurfaceVariant</item>
+    </style><style name="AppearanceFoundation.Caption.Primary">
+        <item name="android:textColor">?attr/colorPrimary</item>
+    </style><style name="AppearanceFoundation.Caption.OnPrimary">
+        <item name="android:textColor">?attr/colorOnPrimary</item>
+    </style><style name="AppearanceFoundation.Tiny" parent="TextAppearance.AppCompat.Caption">
+        <item name="android:textColor">?attr/colorOnSurface</item>
+        <item name="android:textSize">11sp</item>
+    </style><style name="AppearanceFoundation.Tiny.Bold">
+        <item name="android:textStyle">bold</item>
+    </style><style name="AppearanceFoundation.Tiny.Variant">
+        <item name="android:textColor">?attr/colorOnSurfaceVariant</item>
+    </style></file><file path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/values/styles_md2.xml" qualifiers=""><style name="Empty"/><style name="WidgetFoundation" parent="android:Widget"/><style name="Foundation.PopupMenu" parent="Widget.MaterialComponents.PopupMenu">
+        <item name="android:itemTextAppearance">@style/AppearanceFoundation.Caption</item>
+        <item name="android:textStyle">bold</item>
+    </style><style name="Foundation.Default">
+        <item name="android:includeFontPadding">false</item>
+        <item name="actionBarSize">@dimen/internal_action_bar_size</item>
+        <item name="popupMenuStyle">@style/Foundation.PopupMenu</item>
+    </style><style name="Foundation.Floating" parent="Empty">
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style></file><file name="menu_flash" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/menu/menu_flash.xml" qualifiers="" type="menu"/><file name="menu_bottom_nav" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/menu/menu_bottom_nav.xml" qualifiers="" type="menu"/><file name="menu_log_md2" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/menu/menu_log_md2.xml" qualifiers="" type="menu"/><file name="menu_home_md2" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/menu/menu_home_md2.xml" qualifiers="" type="menu"/><file name="menu_reboot" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/menu/menu_reboot.xml" qualifiers="" type="menu"/><file name="menu_deny_md2" path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/main/res/menu/menu_deny_md2.xml" qualifiers="" type="menu"/></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/debug/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug" generated-set="debug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~:!&lt;dir>navigation"><source path="/Users/jingkaiwong/Desktop/Kitsuned magisk/app/apk/src/debug/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"/><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated" generated-set="generated$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~:!&lt;dir>navigation"/><mergedItems><configuration qualifiers=""><declare-styleable name="ConcealableView">
+        <attr format="boolean" name="state_hidden"/>
+    </declare-styleable></configuration></mergedItems></merger>

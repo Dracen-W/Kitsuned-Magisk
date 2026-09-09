@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                       
+                                                   
+
+    
+
+                 
+                       
+                                                                
+
+                 
+                            
+                                                                
+
+           
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingStart="@dimen/l1"
+        android:paddingEnd="@dimen/l1" android:tag="layout/item_developer_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tag="binding_1"      
+            android:textAppearance="@style/AppearanceFoundation.Caption"
+            android:textStyle="bold"
+            tools:text="\@topjohnwu" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:tag="binding_2"  
+                                                          
+                                                 
+            android:overScrollMode="never"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clipToPadding="false"
+            android:fadingEdgeLength="@dimen/l1"
+            android:orientation="horizontal"
+            android:requiresFadingEdge="horizontal"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            tools:itemCount="3"
+            tools:listitem="@layout/item_icon_link" />
+
+    </LinearLayout>
+
+         

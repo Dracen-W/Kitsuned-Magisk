@@ -1,0 +1,78 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.topjohnwu.shared"
+5    android:installLocation="internalOnly" >
+6
+7    <uses-sdk android:minSdkVersion="23" />
+7-->INJECTED
+7-->INJECTED
+8
+9    <uses-permission android:name="android.permission.INTERNET" />
+9-->/Users/jingkaiwong/Desktop/Magisk-master/app/shared/src/main/AndroidManifest.xml:5:5-67
+9-->/Users/jingkaiwong/Desktop/Magisk-master/app/shared/src/main/AndroidManifest.xml:5:22-64
+10    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+10-->/Users/jingkaiwong/Desktop/Magisk-master/app/shared/src/main/AndroidManifest.xml:6:5-79
+10-->/Users/jingkaiwong/Desktop/Magisk-master/app/shared/src/main/AndroidManifest.xml:6:22-76
+11    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+11-->/Users/jingkaiwong/Desktop/Magisk-master/app/shared/src/main/AndroidManifest.xml:7:5-83
+11-->/Users/jingkaiwong/Desktop/Magisk-master/app/shared/src/main/AndroidManifest.xml:7:22-80
+12    <uses-permission android:name="android.permission.HIDE_OVERLAY_WINDOWS" />
+12-->/Users/jingkaiwong/Desktop/Magisk-master/app/shared/src/main/AndroidManifest.xml:8:5-79
+12-->/Users/jingkaiwong/Desktop/Magisk-master/app/shared/src/main/AndroidManifest.xml:8:22-76
+13    <uses-permission android:name="android.permission.UPDATE_PACKAGES_WITHOUT_USER_ACTION" />
+13-->/Users/jingkaiwong/Desktop/Magisk-master/app/shared/src/main/AndroidManifest.xml:9:5-94
+13-->/Users/jingkaiwong/Desktop/Magisk-master/app/shared/src/main/AndroidManifest.xml:9:22-91
+14    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+14-->/Users/jingkaiwong/Desktop/Magisk-master/app/shared/src/main/AndroidManifest.xml:10:5-77
+14-->/Users/jingkaiwong/Desktop/Magisk-master/app/shared/src/main/AndroidManifest.xml:10:22-74
+15    <uses-permission android:name="android.permission.RUN_USER_INITIATED_JOBS" />
+15-->/Users/jingkaiwong/Desktop/Magisk-master/app/shared/src/main/AndroidManifest.xml:11:5-82
+15-->/Users/jingkaiwong/Desktop/Magisk-master/app/shared/src/main/AndroidManifest.xml:11:22-79
+16    <uses-permission
+16-->/Users/jingkaiwong/Desktop/Magisk-master/app/shared/src/main/AndroidManifest.xml:12:5-14:38
+17        android:name="android.permission.FOREGROUND_SERVICE"
+17-->/Users/jingkaiwong/Desktop/Magisk-master/app/shared/src/main/AndroidManifest.xml:13:9-61
+18        android:maxSdkVersion="33" />
+18-->/Users/jingkaiwong/Desktop/Magisk-master/app/shared/src/main/AndroidManifest.xml:14:9-35
+19    <uses-permission
+19-->/Users/jingkaiwong/Desktop/Magisk-master/app/shared/src/main/AndroidManifest.xml:15:5-17:38
+20        android:name="android.permission.READ_EXTERNAL_STORAGE"
+20-->/Users/jingkaiwong/Desktop/Magisk-master/app/shared/src/main/AndroidManifest.xml:16:9-64
+21        android:maxSdkVersion="29" />
+21-->/Users/jingkaiwong/Desktop/Magisk-master/app/shared/src/main/AndroidManifest.xml:17:9-35
+22    <uses-permission
+22-->/Users/jingkaiwong/Desktop/Magisk-master/app/shared/src/main/AndroidManifest.xml:18:5-21:40
+23        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+23-->/Users/jingkaiwong/Desktop/Magisk-master/app/shared/src/main/AndroidManifest.xml:19:9-65
+24        android:maxSdkVersion="29"
+24-->/Users/jingkaiwong/Desktop/Magisk-master/app/shared/src/main/AndroidManifest.xml:20:9-35
+25        tools:ignore="ScopedStorage" />
+25-->/Users/jingkaiwong/Desktop/Magisk-master/app/shared/src/main/AndroidManifest.xml:21:9-37
+26    <uses-permission
+26-->/Users/jingkaiwong/Desktop/Magisk-master/app/shared/src/main/AndroidManifest.xml:22:5-24:53
+27        android:name="android.permission.QUERY_ALL_PACKAGES"
+27-->/Users/jingkaiwong/Desktop/Magisk-master/app/shared/src/main/AndroidManifest.xml:23:9-61
+28        tools:ignore="QueryAllPackagesPermission" />
+28-->/Users/jingkaiwong/Desktop/Magisk-master/app/shared/src/main/AndroidManifest.xml:24:9-50
+29
+30    <application
+30-->/Users/jingkaiwong/Desktop/Magisk-master/app/shared/src/main/AndroidManifest.xml:26:5-32:71
+31        android:allowBackup="false"
+31-->/Users/jingkaiwong/Desktop/Magisk-master/app/shared/src/main/AndroidManifest.xml:27:9-36
+32        android:enableOnBackInvokedCallback="false"
+32-->/Users/jingkaiwong/Desktop/Magisk-master/app/shared/src/main/AndroidManifest.xml:28:9-52
+33        android:label="Kitsuned Magisk"
+33-->/Users/jingkaiwong/Desktop/Magisk-master/app/shared/src/main/AndroidManifest.xml:29:9-40
+34        android:requestLegacyExternalStorage="true"
+34-->/Users/jingkaiwong/Desktop/Magisk-master/app/shared/src/main/AndroidManifest.xml:30:9-52
+35        android:supportsRtl="true"
+35-->/Users/jingkaiwong/Desktop/Magisk-master/app/shared/src/main/AndroidManifest.xml:31:9-35
+36        android:theme="@android:style/Theme.Translucent.NoTitleBar"
+36-->/Users/jingkaiwong/Desktop/Magisk-master/app/shared/src/main/AndroidManifest.xml:32:9-68
+37        android:usesCleartextTraffic="true"
+37-->/Users/jingkaiwong/Desktop/Magisk-master/app/shared/src/debug/AndroidManifest.xml:5:9-44
+38        tools:ignore="UnusedAttribute" />
+38-->/Users/jingkaiwong/Desktop/Magisk-master/app/shared/src/debug/AndroidManifest.xml:6:9-39
+39
+40</manifest>

@@ -1,0 +1,8 @@
+com.topjohnwu.magisk.stub-res-pngs-0 /Users/jingkaiwong/Desktop/Kitsuned magisk/app/stub-res/build/generated/res/pngs/debug
+com.topjohnwu.magisk.stub-res-updated_navigation_xml-1 /Users/jingkaiwong/Desktop/Kitsuned magisk/app/stub-res/build/generated/updated_navigation_xml/debug
+com.topjohnwu.magisk.stub-res-packageDebugResources-2 /Users/jingkaiwong/Desktop/Kitsuned magisk/app/stub-res/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.topjohnwu.magisk.stub-res-packageDebugResources-3 /Users/jingkaiwong/Desktop/Kitsuned magisk/app/stub-res/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.topjohnwu.magisk.stub-res-debug-4 /Users/jingkaiwong/Desktop/Kitsuned magisk/app/stub-res/build/intermediates/merged_res/debug/mergeDebugResources
+com.topjohnwu.magisk.stub-res-debug-5 /Users/jingkaiwong/Desktop/Kitsuned magisk/app/stub-res/src/debug/res
+com.topjohnwu.magisk.stub-res-main-6 /Users/jingkaiwong/Desktop/Kitsuned magisk/app/stub-res/src/main/res
+gradleHome-0 /Users/jingkaiwong/.gradle

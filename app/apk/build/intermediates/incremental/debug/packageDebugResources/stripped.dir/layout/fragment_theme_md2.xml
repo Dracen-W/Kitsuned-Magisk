@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                        
+
+    
+
+                                                             
+
+                 
+                            
+                                                                  
+
+           
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:fillViewport="true"
+        android:paddingStart="@dimen/l1"
+        android:paddingTop="@dimen/internal_action_bar_size"
+        android:paddingEnd="@dimen/l1"
+        android:paddingBottom="@dimen/l1"
+        app:fitsSystemWindowsInsets="top|bottom" android:tag="layout/fragment_theme_md2_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <LinearLayout
+            android:id="@+id/theme_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/l1"
+            android:useDefaultMargins="true" android:tag="binding_1">
+
+            <include
+                android:id="@+id/theme_card_dark"
+                                                 
+                layout="@layout/item_tappable_headline"
+                                        />
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+         
